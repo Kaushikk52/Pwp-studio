@@ -128,8 +128,6 @@ form.addEventListener("submit", (e) => {
     .catch((error) => console.error("Error!", error.message));
 });
 
-
-
 document.getElementById('careerForm').addEventListener('onClick', function (e) {
   e.preventDefault();
 
