@@ -127,29 +127,3 @@ form.addEventListener("submit", (e) => {
     )
     .catch((error) => console.error("Error!", error.message));
 });
-
-document.getElementById('careerForm').addEventListener('onClick', function (e) {
-  e.preventDefault();
-
-  // Grab field values
-  const name       = encodeURIComponent(document.getElementById('name').value);
-  const email      = encodeURIComponent(document.getElementById('email').value);
-  const contact    = encodeURIComponent(document.getElementById('contact').value);
-  const position   = encodeURIComponent(document.getElementById('position').value);
-  const additional = encodeURIComponent(document.getElementById('additional').value);
-
-  // Build the subject and body for the mailto link
-  const subject = `Career Application: ${position}`;
-  const body =
-    `Name: ${name}%0D%0A` +
-    `Email: ${email}%0D%0A` +
-    `Contact: ${contact}%0D%0A` +
-    `Position: ${position}%0D%0A%0D%0A` +
-    `Additional Info:%0D%0A${additional}`;
-
-  // Replace with your HR email address
-  const mailto = `mailto:kaushikkarnik635@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
-
-  // Trigger the user's default mail client
-  window.location.href = mailto;
-});
