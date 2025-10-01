@@ -1244,7 +1244,6 @@ html {
   color: #fff;
 }
 
-
 .nirav-background {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -1254,7 +1253,7 @@ html {
     text-align: center;
     margin-left: 10px;
     border-radius: 5px;
-    border-bottom: 1px  #ffffff;
+    border-bottom: 1px #ffffff;
     margin-right: 10px !important;
   }
 
@@ -1274,195 +1273,272 @@ html {
 }
 
 .grid-background {
-background-color: #f0efefef;
-background-image:  linear-gradient(#dedede 0.9px, transparent 0.9px), linear-gradient(to right, #dedede 0.9px, #fcfcfc 0.9px);
-background-size: 18px 18px;
+  background-color: #f0efefef;
+  background-image: linear-gradient(#dedede 0.9px, transparent 0.9px),
+    linear-gradient(to right, #dedede 0.9px, #fcfcfc 0.9px);
+  background-size: 18px 18px;
 }
 
-
-
 .custom-inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .custom-z-0 {
-    z-index: 0;
+  z-index: 0;
 }
 
 .custom-pointer-events-none {
-    pointer-events: none;
+  pointer-events: none;
 }
-
 
 .fs-7 {
   font-style: italic;
- font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
-
-
 .hero-section {
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-            padding: 80px 0;
-            border-bottom: 1px solid #333;
-        }
-        
-        .hero-title {
-            font-size: 4rem;
-            font-weight: 300;
-            letter-spacing: 2px;
-            text-align: center;
-            margin-bottom: 0;
-        }
-        
-        .career-intro {
-            padding: 100px 0;
-            background-color: #0a0a0a;
-        }
-        
-        .intro-title {
-            font-size: 2.5rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 30px;
-        }
-        
-        .intro-text {
-            font-size: 1.2rem;
-            color: #b0b0b0;
-            line-height: 1.8;
-        }
-        
-        .form-section {
-            background-color: #111111;
-            padding: 80px 0;
-            border-top: 1px solid #333;
-        }
-        
-        .career-image {
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
-        }
-        
-        .career-image img {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            filter: grayscale(20%);
-        }
-        
-        .form-container {
-            background-color: #1a1a1a;
-            padding: 40px;
-            border-radius: 15px;
-            border: 1px solid #333;
-        }
-        
-        .form-control {
-            background-color: #2a2a2a;
-            border: 1px solid #444;
-            color: #ffffff;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        
-        .form-control:focus {
-            background-color: #2a2a2a;
-            border-color: #666;
-            color: #ffffff;
-            box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.1);
-        }
-        
-        .form-control::placeholder {
-            color: #888;
-        }
-        
-        .form-label {
-            color: #ffffff;
-            font-weight: 500;
-            margin-bottom: 8px;
-        }
-        
-        .portfolio-upload {
-            background-color: #2a2a2a;
-            border: 2px dashed #555;
-            border-radius: 10px;
-            padding: 40px;
-            text-align: center;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-        
-        .portfolio-upload:hover {
-            border-color: #777;
-            background-color: #333;
-        }
-        
-        .portfolio-upload.dragover {
-            border-color: #fff;
-            background-color: #333;
-        }
-        
-        .upload-icon {
-            font-size: 3rem;
-            color: #666;
-            margin-bottom: 15px;
-        }
-        
-        .upload-text {
-            color: #b0b0b0;
-            font-size: 1.1rem;
-        }
-        
-        .btn-send {
-            background: linear-gradient(135deg, #333 0%, #555 100%);
-            border: none;
-            color: #ffffff;
-            padding: 15px 40px;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            width: 100%;
-        }
-        
-        .btn-send:hover {
-            background: linear-gradient(135deg, #444 0%, #666 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-        }
-        
-        .divider {
-            width: 60px;
-            height: 3px;
-            background: linear-gradient(135deg, #666 0%, #999 100%);
-            margin: 30px 0;
-        }
-        
-        @media (max-width: 768px) {
-            .hero-title {
-                font-size: 2.5rem;
-            }
-            
-            .intro-title {
-                font-size: 2rem;
-            }
-            
-            .career-intro {
-                padding: 60px 0;
-            }
-            
-            .form-section {
-                padding: 60px 0;
-            }
-            
-            .form-container {
-                padding: 30px 20px;
-                margin-top: 30px;
-            }
-        }
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 80px 0;
+  border-bottom: 1px solid #333;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.career-intro {
+  padding: 100px 0;
+  background-color: #0a0a0a;
+}
+
+.intro-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #b0b0b0;
+  line-height: 1.8;
+}
+
+.form-section {
+  background-color: #111111;
+  padding: 80px 0;
+  border-top: 1px solid #333;
+}
+
+.career-image {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.career-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+.form-container {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+.form-control {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  background-color: #2a2a2a;
+  border-color: #666;
+  color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+.form-label {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.portfolio-upload {
+  background-color: #2a2a2a;
+  border: 2px dashed #555;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.portfolio-upload:hover {
+  border-color: #777;
+  background-color: #333;
+}
+
+.portfolio-upload.dragover {
+  border-color: #fff;
+  background-color: #333;
+}
+
+.upload-icon {
+  font-size: 3rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.upload-text {
+  color: #b0b0b0;
+  font-size: 1.1rem;
+}
+
+.btn-send {
+  background: linear-gradient(135deg, #333 0%, #555 100%);
+  border: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn-send:hover {
+  background: linear-gradient(135deg, #444 0%, #666 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(135deg, #666 0%, #999 100%);
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .intro-title {
+    font-size: 2rem;
+  }
+
+  .career-intro {
+    padding: 60px 0;
+  }
+
+  .form-section {
+    padding: 60px 0;
+  }
+
+  .form-container {
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+}
+
+/* Make the button circular with black background */
+.custom-toggler {
+  width: 48px;
+  height: 48px;
+  min-width: 48px; /* prevent shrink/stretch */
+  min-height: 48px;
+  border-radius: 50%;
+  background-color: #000;
+  border: none;
+  padding: 0 !important; /* override Bootstrap padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; /* keep exact size */
+}
+
+/* Remove Bootstrap's default background-image for the toggler icon */
+.custom-toggler .navbar-toggler-icon {
+  background-image: none;
+  width: 4px;
+  height: 4px;
+  position: relative;
+}
+
+/* Create three white dots using pseudo-elements */
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  left: 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* Position the dots vertically */
+.custom-toggler .navbar-toggler-icon::before {
+  top: -8px;
+}
+.custom-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.contact-container {
+  background-color: #2a2a2a;
+  padding: 40px;
+  max-width: 100%;
+  margin: 50px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.form-control,
+.form-select {
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+.form-control:focus,
+.form-select:focus {
+  background-color: #444;
+  color: #fff;
+  border-color: #888;
+  box-shadow: none;
+}
+.btn-submit {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background-color: #777;
+}
