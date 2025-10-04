@@ -111,13 +111,12 @@ html {
   padding: 1rem;
 }
 .our-team-member img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   transition: 0.5s;
   border-radius: 50%;
   border: 2px dotted #ffffffbf;
-  padding: 5px;
   margin-bottom: 10px;
 }
 
